@@ -18,8 +18,59 @@ margin: 0;
 padding: 0;
 }
 
+/* Body */
 body {
 	margin: 0em auto;
 	max-width: 100%;
-  background-color: dodgerblue;
+}
+
+header {
+	text-transform: uppercase;
+	background: #fbfbfb;
+	padding: 1.5em;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+		color: #a2a2a2;
+}
+
+.logo-name {
+	float: right;
+	font-size: 3em;
+	font-family:monospace;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+	}
+
+/* Banner*/
+
+banner {
+	width: 100%;
+	background:url();
+}
+
+banner h1 {
+	font-family:fantasy;
+  font-size: 2.75rem;
+  font-weight: normal;
+  text-align: center;
+	margin-top: 2em;
 }
